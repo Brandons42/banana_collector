@@ -38,20 +38,7 @@ Here is Udacity's description of the project environment:
 
 2. Decompress the file and place it in this repository
 
-3. Create Python environment using Anaconda
-
-   - Linux or Mac:
-     ```
-     conda create --name drlnd python=3.6
-     source activate drlnd
-     ```
-   - Windows:
-     ```
-     conda create --name drlnd python=3.6
-     activate drlnd
-     ```
-
-4. Install dependencies
+3. Install dependencies
 
    Assuming you're at the root of this repository:
 
@@ -60,14 +47,6 @@ Here is Udacity's description of the project environment:
    pip install .
    ```
 
-5. Create kernel
+4. Follow steps 1, 4, and 5 from [this repository](https://github.com/udacity/deep-reinforcement-learning)
 
-   ```
-   python -m ipykernel install --user --name drlnd --display-name "drlnd"
-   ```
-
-6. Open `Navigation.ipynb` and set kernel
-
-![Kernel][image2]
-
-7. Follow the directions in `Navigation.ipynb`
+5. Follow the directions in `Navigation.ipynb`
